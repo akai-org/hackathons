@@ -10,7 +10,16 @@ class App extends Component {
         {
           title: "Code4Life Hackathon",
           date: new Date(2018, 10, 6),
-          url: "https://code4life.pl/pages/hackathons"
+          url: "https://code4life.pl/pages/hackathons",
+          location: "Poznań",
+          tags: []
+        },
+        {
+          title: "gic week",
+          date: new Date(2018, 10, 10),
+          url: "https://gic.gd/gic-week/",
+          location: "Poznań",
+          tags: ["gamedev"]
         }
       ]
     };
@@ -30,7 +39,8 @@ class App extends Component {
           {this.state.events.map(event => (
             <div>
               <a href={event.url}>
-                {event.title} - {event.date.toLocaleDateString("pl")}
+                {event.title} in {event.location}-{" "}
+                {event.date.toLocaleDateString("pl")}
               </a>
             </div>
           ))}
