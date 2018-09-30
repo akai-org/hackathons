@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
@@ -11,7 +10,7 @@ class App extends Component {
           title: "Code4Life Hackathon",
           date: new Date(2018, 10, 6),
           url: "https://code4life.pl/pages/hackathons",
-          location: "Poznań",
+          location: "Warszawa",
           tags: []
         },
         {
@@ -20,6 +19,13 @@ class App extends Component {
           url: "https://gic.gd/gic-week/",
           location: "Poznań",
           tags: ["gamedev"]
+        },
+        {
+          title: "HackYeah",
+          date: new Date(2018, 11, 24),
+          url: "https://hackyeah.pl/",
+          location: "Warszawa",
+          tags: []
         }
       ]
     };
