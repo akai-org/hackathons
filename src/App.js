@@ -26,9 +26,20 @@ class App extends Component {
           url: "https://hackyeah.pl/",
           location: "Warszawa",
           tags: []
+        },
+        {
+          title: "Nowa strona danych",
+          date: new Date(2018, 10, 27),
+          url: "https://hackathon.gov.pl",
+          location: "Warszawa",
+          tags: []
         }
       ]
     };
+
+    this.state.events = this.state.events
+      .filter(event => event.date > new Date())
+      .sort((a, b) => a.date - b.date);
   }
   render() {
     return (
@@ -37,15 +48,15 @@ class App extends Component {
           <img
             src="https://akai.org.pl/wp-content/themes/akai-new/images/logo.svg"
             className="App-logo"
-            alt="logo"
+            alt="AKAI"
           />
-          <h1 className="App-title">AKAI - Hackathons Collector</h1>
+          <h1 className="App-title">Hackathons Collector</h1>
         </header>
         <div className="App-intro">
-          {this.state.events.map(event => (
-            <div>
+          {this.state.events.map((event, i) => (
+            <div className="hackathon-entry" key={i}>
               <a href={event.url}>
-                {event.title} in {event.location}-{" "}
+                {event.title} in {event.location} -{" "}
                 {event.date.toLocaleDateString("pl")}
               </a>
             </div>
