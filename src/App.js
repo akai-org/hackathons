@@ -8,35 +8,35 @@ class App extends Component {
       events: [
         {
           title: "Code4Life Hackathon",
-          date: new Date(2018, 10, 6),
+          date: new Date(2018, 9, 6),
           url: "https://code4life.pl/pages/hackathons",
           location: "Warszawa",
           tags: []
         },
         {
           title: "gic week",
-          date: new Date(2018, 10, 10),
+          date: new Date(2018, 9, 10),
           url: "https://gic.gd/gic-week/",
           location: "Poznań",
           tags: ["gamedev"]
         },
         {
           title: "HackYeah",
-          date: new Date(2018, 11, 24),
+          date: new Date(2018, 10, 24),
           url: "https://hackyeah.pl/",
           location: "Warszawa",
           tags: []
         },
         {
           title: "Nowa strona danych",
-          date: new Date(2018, 10, 27),
+          date: new Date(2018, 9, 27),
           url: "https://hackathon.gov.pl",
           location: "Warszawa",
           tags: []
         },
         {
           title: "#MAP_IT! Mapping Hackathon",
-          date: new Date(2018, 11, 17),
+          date: new Date(2018, 10, 17),
           url: "http://www.map-it.com.pl/",
           location: "Kraków",
           tags: []
