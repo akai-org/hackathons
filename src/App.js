@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import moment from 'moment'
+import 'moment/locale/en-gb'
 
 class App extends Component {
   constructor(props) {
@@ -63,9 +65,10 @@ class App extends Component {
           {this.state.events.map((event, i) => (
             <div className="hackathon-entry" key={i}>
               <a href={event.url}>
-                {event.title} in {event.location} -{" "}
-                {event.date.toLocaleDateString("pl")}
+                {event.title} in {event.location}{" - "}
+                {moment(event.date).format('LL')}
               </a>
+              {` - ${moment(event.date).endOf('hours').diff(new Date(), 'days')} day(s) left`}
             </div>
           ))}
         </div>
