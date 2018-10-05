@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import moment from 'moment'
-import 'moment/locale/en-gb'
+import moment from "moment";
+import "moment/locale/en-gb";
 
 class App extends Component {
   constructor(props) {
@@ -42,6 +42,20 @@ class App extends Component {
           url: "http://www.map-it.com.pl/",
           location: "Kraków",
           tags: []
+        },
+        {
+          title: "CodePlay by Asseco 2018",
+          date: new Date(2018, 9, 27),
+          url: "https://codeplay.asseco.com/",
+          location: "Kraków",
+          tags: []
+        },
+        {
+          title: "Mercari Euro Hack 2018",
+          date: new Date(2018, 9, 20),
+          url: "https://challengerocket.com/mercari",
+          location: "Warszawa",
+          tags: []
         }
       ]
     };
@@ -65,10 +79,13 @@ class App extends Component {
           {this.state.events.map((event, i) => (
             <div className="hackathon-entry" key={i}>
               <a href={event.url}>
-                {event.title} in {event.location}{" - "}
-                {moment(event.date).format('LL')}
+                {event.title} in {event.location}
+                {" - "}
+                {moment(event.date).format("LL")}
               </a>
-              {` - ${moment(event.date).endOf('hours').diff(new Date(), 'days')} day(s) left`}
+              {` - ${moment(event.date)
+                .endOf("hours")
+                .diff(new Date(), "days")} day(s) left`}
             </div>
           ))}
         </div>
