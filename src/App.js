@@ -16,9 +16,16 @@ class App extends Component {
           tags: []
         },
         {
-          title: "gic week",
+          title: "Paysafe Global Hackathon 2018",
+          date: new Date(2018, 10, 27),
+          url: "https://app.codility.com/l/paysafe_hackathon2018/",
+          location: "online",
+          tags: []
+        },
+        {
+          title: "Geek Jam",
           date: new Date(2018, 9, 10),
-          url: "https://gic.gd/gic-week/",
+          url: "https://gic.gd/geekjam/",
           location: "Poznań",
           tags: ["gamedev"]
         },
@@ -44,17 +51,27 @@ class App extends Component {
           tags: []
         },
         {
+          title: "Mercari Euro Hack 2018",
+          date: new Date(2018, 9, 20),
+          url: "https://challengerocket.com/mercari",
+          location: "Warszawa",
+          tags: []
+        },
+        {
           title: "CodePlay by Asseco 2018",
+          subtitle: "All you need is bank!",
           date: new Date(2018, 9, 27),
+          duration: "12h",
           url: "https://codeplay.asseco.com/",
           location: "Kraków",
           tags: []
         },
         {
-          title: "Mercari Euro Hack 2018",
-          date: new Date(2018, 9, 20),
-          url: "https://challengerocket.com/mercari",
-          location: "Warszawa",
+          title: "Let's Code",
+          date: new Date(2018, 10, 17),
+          duration: "24h",
+          url: "http://letscode.sii.pl",
+          location: "Poznań",
           tags: []
         }
       ]

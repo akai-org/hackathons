@@ -1,6 +1,7 @@
 {
   "name": "hackatons",
   "version": "0.0.1",
+  "homepage": "https://hackathons.akai.org.pl",
   "private": true,
   "dependencies": {
     "moment": "^2.22.2",
