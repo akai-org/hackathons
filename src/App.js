@@ -23,7 +23,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img
-            src="https://akai.org.pl/wp-content/themes/akai-new/images/logo.svg"
+            src="/Hackathons.svg"
             className="App-logo"
             alt="AKAI"
           />
