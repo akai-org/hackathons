@@ -28,6 +28,7 @@ class App extends Component {
             alt="AKAI"
           />
           <h1 className="App-title">Hackathons Collector</h1>
+          <p>The best hackathons in Poland</p>
         </header>
         <div className="App-intro">
           <h2>Incoming hackathons:</h2>

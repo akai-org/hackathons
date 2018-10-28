@@ -1,5 +1,5 @@
 .App {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -15,8 +15,6 @@
   color: black;
   text-align: center;
 }
-
-
 
 .App-intro {
   font-size: large;
@@ -67,16 +65,16 @@
 
 .App-title {
   font-size: 1.5em;
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 h2 {
   font-size: 1.1em;
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
 }
 
 h3 {
-  font-family: 'K2D', sans-serif;
+  font-family: "K2D", sans-serif;
   font-weight: 600;
   margin: 0;
 }
@@ -86,7 +84,10 @@ h3 {
 }
 
 p {
-  
+}
+
+.hackathon-entry p {
+  margin: 10px 0 0;
 }
 
 .hackathon-entry a {

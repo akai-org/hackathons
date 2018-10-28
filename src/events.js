@@ -18,6 +18,7 @@ export default [
     date: new Date(2018, 10, 24),
     url: "https://hackyeah.pl/",
     location: "Warszawa",
+    description: "The biggest stationary hackathon in the world!",
     tags: []
   },
   {
