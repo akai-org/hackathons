@@ -1,21 +1,29 @@
 {
   "name": "hackatons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://hackathons.akai.org.pl",
-  "private": true,
+  "main": "src/hackathons-collector/hackathons-collector.js",
   "dependencies": {
+    "emotion": "^9.2.12",
     "moment": "^2.22.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5"
+    "react-emotion": "^9.2.12",
+    "react-scripts": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "deploy": "npm run build && node deploy"
+    "deploy": "npm run build && node utils/deploy"
   },
   "devDependencies": {
     "gh-pages": "^2.0.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

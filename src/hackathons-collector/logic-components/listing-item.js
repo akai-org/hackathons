@@ -2,6 +2,9 @@ import React from "react";
 import moment from "moment";
 import "moment/locale/en-gb";
 
+import Entry from "../styled-components/entry";
+import { H3 } from "../styled-components/text";
+
 class ListingItem extends React.Component {
   render() {
     const event = this.props.event;
@@ -9,16 +12,16 @@ class ListingItem extends React.Component {
     const customStyles = !this.props.disabled ? {} : { color: "#888" };
 
     return (
-      <div className="hackathon-entry">
+      <Entry>
         <article style={customStyles}>
-          <div class="tags">
-            <span class="city">@{event.location}</span>
-            {event.tags.map(tag => (
-              <span>#{tag}</span>
+          <div className="tags">
+            <span className="city">@{event.location}</span>
+            {event.tags.map((tag, i) => (
+              <span key={i}>#{tag}</span>
             ))}
           </div>
-          <h3>{event.title}</h3>
-          <div class="metadata">
+          <H3>{event.title}</H3>
+          <div className="metadata">
             <span>
               {moment(event.date).format("LL")} -
               {" " + moment(event.date).format("dddd")}
@@ -35,12 +38,12 @@ class ListingItem extends React.Component {
           {this.props.disabled ? (
             ""
           ) : (
-            <a target="_blank" href={event.url}>
+            <a target="_blank" rel="noopener noreferrer" href={event.url}>
               website
             </a>
           )}
         </footer>
-      </div>
+      </Entry>
     );
   }
 }
