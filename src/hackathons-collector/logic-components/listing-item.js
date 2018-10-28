@@ -5,6 +5,8 @@ import "moment/locale/en-gb";
 import Entry from "../styled-components/entry";
 import { H3 } from "../styled-components/text";
 
+import akai from "../assets/akai-logo.svg";
+
 class ListingItem extends React.Component {
   render() {
     const event = this.props.event;
@@ -20,7 +22,10 @@ class ListingItem extends React.Component {
               <span key={i}>#{tag}</span>
             ))}
           </div>
-          <H3>{event.title}</H3>
+          <H3>
+            {event.title}{" "}
+            {event.akai ? <img src={akai} alt="AKAI" height="16" /> : ""}
+          </H3>
           <div className="metadata">
             <span>
               {moment(event.date).format("LL")} -

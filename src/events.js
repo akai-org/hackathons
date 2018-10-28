@@ -19,6 +19,7 @@ export default [
     url: "https://hackyeah.pl/",
     location: "Warszawa",
     description: "The biggest stationary hackathon in the world!",
+    akai: true,
     tags: []
   },
   {
@@ -55,6 +56,7 @@ export default [
     duration: "24h",
     url: "http://letscode.sii.pl",
     location: "Poznań",
+    akai: true,
     tags: []
   },
   {
@@ -69,6 +71,7 @@ export default [
     date: new Date(2018, 9, 30),
     url: "http://volkswagen-poznan.pl/pl/hackathon",
     location: "Poznań",
+    akai: true,
     tags: []
   },
   {
