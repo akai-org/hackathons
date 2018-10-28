@@ -26,7 +26,9 @@ export default class HackathonsCollector extends Component {
     super();
     this.previousEvents = events
       .filter(event => event.date <= new Date())
-      .sort((a, b) => a.date - b.date);
+      .sort((a, b) => a.date - b.date)
+      .reverse()
+      .splice(3);
 
     this.events = events
       .filter(event => event.date > new Date())
