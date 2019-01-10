@@ -103,5 +103,27 @@ export default [
     url: "https://globalgamejam.org/2019/jam-sites/poznan-game-jam",
     location: "Poznań",
     tags: ["gamedev"]
+  },
+  {
+    title: "Vue Storefront Hackathon #4",
+    date: new Date(2019, 0, 18),
+    url: "https://www.eventbrite.com/e/vue-storefront-hackathon-4-tickets-54166854520",
+    location: "Wrocław",
+    tags: []
+  },
+  {
+    title: "Hackathon Brainhack Warsaw 2019",
+    date: new Date(2019, 2, 1),
+    url: "http://psych.uw.edu.pl/2019/01/09/hackathon-brainhack-warsaw-2019/",
+    location: "Warszawa",
+    tags: []
+  },
+  {
+    title: "Hackathon Banku Pekao S.A.",
+    date: new Date(2019, 1, 22),
+    url: "http://psych.uw.edu.pl/2019/01/09/hackathon-brainhack-warsaw-2019/",
+    location: "wiele miast",
+    description: "Finał w Warszawie",
+    tags: []
   }
 ];
