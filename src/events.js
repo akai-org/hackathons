@@ -96,5 +96,12 @@ export default [
     location: "Wrocław",
     description: "#senseigj",
     tags: ["gamedev"]
+  },
+  {
+    title: "Poznań Game Jam",
+    date: new Date(2019, 0, 25),
+    url: "https://globalgamejam.org/2019/jam-sites/poznan-game-jam",
+    location: "Poznań",
+    tags: ["gamedev"]
   }
 ];
