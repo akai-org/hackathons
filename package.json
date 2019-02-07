@@ -1,5 +1,5 @@
 {
-  "name": "hackatons",
+  "name": "hackathons",
   "version": "0.0.2",
   "homepage": "https://hackathons.akai.org.pl",
   "main": "src/hackathons-collector/hackathons-collector.js",
@@ -25,5 +25,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "background": "#fff8e2"
 }
