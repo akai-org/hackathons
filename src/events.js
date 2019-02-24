@@ -1,4 +1,12 @@
 export default [
+  
+  {
+    title: "JavaScript Hackathon & ServiceNow Meetup",
+    date: new Date(2019, 1, 27),
+    url: "https://spoc.pl/servicenow-meetup-hackathon-february-27th-poznan/",
+    location: "Poznań",
+    tags: []
+  },
   {
     title: "Code4Life Hackathon",
     date: new Date(2018, 9, 6),
