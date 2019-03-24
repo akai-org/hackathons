@@ -1,5 +1,11 @@
 export default [
-  
+  {
+    title: "Addicton 2019",
+    date: new Date(2019, 2, 30),
+    url: "http://addicton.pl/",
+    location: "Poznań",
+    tags: []
+  },
   {
     title: "JavaScript Hackathon & ServiceNow Meetup",
     date: new Date(2019, 1, 27),
