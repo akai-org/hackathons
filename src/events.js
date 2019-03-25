@@ -1,7 +1,7 @@
 export default [
   {
     title: "Hackathon BrainCode 2019",
-    date: new Date(2019,03,12),
+    date: new Date(2019, 3, 12),
     url: "https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247",
     location: "Poznań",
     tags: []
