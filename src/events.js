@@ -1,5 +1,12 @@
 export default [
   {
+    title: "HackYeah 2019",
+    date: new Date(2019, 9, 14),
+    url: "https://hackyeah.pl/",
+    location: "Warszawa",
+    tags: []
+  },
+  {
     title: "Hackathon BrainCode 2019",
     date: new Date(2019, 3, 12),
     url: "https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247",
