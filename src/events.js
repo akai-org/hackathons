@@ -1,7 +1,7 @@
 export default [
   {
     title: "HackYeah 2019",
-    date: new Date(2019, 9, 14),
+    date: new Date(2019, 8, 14),
     url: "https://hackyeah.pl/",
     location: "Warszawa",
     tags: []
@@ -9,7 +9,8 @@ export default [
   {
     title: "Hackathon BrainCode 2019",
     date: new Date(2019, 3, 12),
-    url: "https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247",
+    url:
+      "https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247",
     location: "Poznań",
     tags: []
   },
@@ -135,7 +136,8 @@ export default [
   {
     title: "Vue Storefront Hackathon #4",
     date: new Date(2019, 0, 18),
-    url: "https://www.eventbrite.com/e/vue-storefront-hackathon-4-tickets-54166854520",
+    url:
+      "https://www.eventbrite.com/e/vue-storefront-hackathon-4-tickets-54166854520",
     location: "Wrocław",
     tags: []
   },
