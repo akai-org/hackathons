@@ -10,6 +10,12 @@ Project is live - https://hackathons.akai.org.pl/
 npm start
 ```
 
+## Build
+
+```
+npm run build
+```
+
 ## Testing
 
 ```
