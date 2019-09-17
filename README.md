@@ -16,6 +16,12 @@ npm start
 npm run build
 ```
 
+## Deploy
+
+Currently repository is using Github Actions in order to deploy app on Github Pages. Deploy is triggered on every push to master.
+
+All details can be found in `.github/workflows/nodejs.yml`
+
 ## Testing
 
 ```
