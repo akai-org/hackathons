@@ -1,5 +1,19 @@
 export default [
   {
+    title: "PGG JAM - ALL PLAY: ACCESSIBILITY vol. 4",
+    date: new Date(2019, 10, 29),
+    url: "http://gildiagraczy.pl/pgg-jam-all-play/",
+    location: "Poznań",
+    tags: ["gamedev"]
+  },
+  {
+    title: "Mage Jam - Edycja 2",
+    date: new Date(2019, 9, 25),
+    url: "https://www.facebook.com/events/2177556659032774/",
+    location: "Poznań",
+    tags: ["gamedev"]
+  },
+  {
     title: "HackYeah 2019",
     date: new Date(2019, 8, 14),
     url: "https://hackyeah.pl/",
