@@ -1,24 +1,24 @@
 export default [
   {
     title: "II Hackathon Kognitywistyczny Cog_HACK",
-    date: new Date(2020, 3, 28),
+    date: new Date(2020, 2, 28),
     url: "https://www.facebook.com/events/616646389152894/",
     location: "Poznań",
     tags: []
   },
   {
     title: "Wrocław Agile Development Hackathon",
-    date: new Date(2020, 3, 14),
+    date: new Date(2020, 2, 14),
     url: "https://www.facebook.com/events/536950876911003/",
     location: "Wrocław",
     tags: []
   },
   {
-  title: "Copernicus Hackathon",
-  date: new Date(2020, 3, 7),
-  url: "https://www.facebook.com/events/2469536026596600/",
-  location: "Łódź",
-  tags: []
+    title: "Copernicus Hackathon",
+    date: new Date(2020, 2, 7),
+    url: "https://www.facebook.com/events/2469536026596600/",
+    location: "Łódź",
+    tags: []
   },
   {
     title: "PGG JAM - ALL PLAY: ACCESSIBILITY vol. 4",
