@@ -10,6 +10,7 @@ import Logo from "./styled-components/logo";
 import Main from "./styled-components/main";
 import Section from "./styled-components/section";
 import Footer from "./styled-components/footer";
+import Filter from "./styled-components/filter";
 
 // Logic components
 import Listing from "./logic-components/listing";
@@ -24,31 +25,48 @@ import akai from "./assets/akai-logo.svg";
 export default class HackathonsCollector extends Component {
   constructor() {
     super();
-    this.previousEvents = events
+    this.state = {
+      filterWeekends: false,
+      allEvents: events
+    };
+  }
+  render() {
+    const previousEvents = this.state.allEvents
       .filter(event => event.date <= new Date())
+      .filter(event => {
+        return !this.state.filterWeekends || event.date.getDay() > 5;
+      })
       .sort((a, b) => a.date - b.date)
       .reverse()
       .splice(0, 3);
-
-    this.events = events
+    const events = this.state.allEvents
       .filter(event => event.date > new Date())
+      .filter(event => {
+        return !this.state.filterWeekends || event.date.getDay() > 5;
+      })
       .sort((a, b) => a.date - b.date);
-  }
-  render() {
     return (
       <div>
         <Header>
           <Logo src={logo} />
           <H1>Hackathons Collector</H1>
         </Header>
+        <Filter
+          value={this.state.filterWeekends}
+          setValue={newValue => {
+            this.setState({ filterWeekends: newValue });
+          }}
+        >
+          Only weekend events
+        </Filter>
         <Main>
           <Section>
             <H2>Incoming hackathons:</H2>
-            <Listing list={this.events} />
+            <Listing list={events} />
           </Section>
           <Section>
             <H2>Previous hackathons:</H2>
-            <Listing list={this.previousEvents} disabled={true} />
+            <Listing list={previousEvents} disabled={true} />
           </Section>
         </Main>
         <Footer>
