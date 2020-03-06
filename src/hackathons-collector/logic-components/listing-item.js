@@ -11,6 +11,8 @@ class ListingItem extends React.Component {
   render() {
     const event = this.props.event;
 
+    const weekday = moment(event.date).format("dddd");
+
     const customStyles = !this.props.disabled ? {} : { color: "#888" };
 
     return (
@@ -28,8 +30,7 @@ class ListingItem extends React.Component {
           </H3>
           <div className="metadata">
             <span>
-              {moment(event.date).format("LL")} -
-              {" " + moment(event.date).format("dddd")}
+              {moment(event.date).format("LL")} - <span>{weekday}</span>
               {this.props.disabled
                 ? ""
                 : ` - ${moment(event.date)
