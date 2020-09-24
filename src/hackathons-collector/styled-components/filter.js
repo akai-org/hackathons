@@ -7,9 +7,9 @@ const Filter = styled("label")`
   text-align: center;
 `;
 
-export default ({ value, setValue }) => (
+export default ({ value, setValue, children }) => (
   <Filter>
-    <input type="checkbox" checked={value} onChange={() => setValue(!value)} />{" "}
-    Only weekend events
+    <input type="checkbox" checked={value} onChange={() => setValue(!value)} />
+    <span>{children}</span>
   </Filter>
 );
