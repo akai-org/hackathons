@@ -15,17 +15,14 @@ import Filter from './styled-components/filter';
 // Logic components
 import Listing from './logic-components/listing';
 
-// Data
-
 // Assets
 import logo from './assets/logo.svg';
 import akai from './assets/akai-logo.svg';
 
 const HackathonsCollector = ({ events }) => {
   const [filterWeekends, changeFilterWeekends] = useState(false);
-  const [allEvents] = useState(events);
 
-  const previousEvents = allEvents
+  const previousEvents = events
     .filter(({ date }) => date <= new Date())
     .filter(({ date }) => {
       return !filterWeekends || date.getDay() > 5;
@@ -34,7 +31,7 @@ const HackathonsCollector = ({ events }) => {
     .reverse()
     .splice(0, 3);
 
-  const updatedEvents = allEvents
+  const updatedEvents = events
     .filter(({ date }) => date > new Date())
     .filter(({ date }) => {
       return !filterWeekends || date.getDay() > 5;
@@ -66,7 +63,7 @@ const HackathonsCollector = ({ events }) => {
         </Section>
       </Main>
       <Footer>
-        Created by{' '}
+        Created by
         <a href='https://akai.org.pl/' title='AKAI'>
           <img src={akai} alt='AKAI' height='12' />
         </a>
