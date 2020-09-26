@@ -63,7 +63,7 @@ const HackathonsCollector = ({ events }) => {
         </Section>
       </Main>
       <Footer>
-        Created by{' '}
+        Created by
         <a href='https://akai.org.pl/' title='AKAI'>
           <img src={akai} alt='AKAI' height='12' />
         </a>
