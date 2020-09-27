@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HackathonsCollector } from './hackathons-collector/';
+import {HackathonsCollector} from './hackathons-collector/';
 import registerServiceWorker from './registerServiceWorker';
 import events from './events';
 

@@ -1,6 +1,7 @@
 {
   "name": "hackathons",
   "version": "0.0.2",
+  "prettier": "prettier-airbnb-config",
   "homepage": "https://hackathons.akai.org.pl",
   "main": "src/hackathons-collector/hackathons-collector.js",
   "dependencies": {
@@ -18,7 +19,9 @@
     "deploy": "npm run build && node utils/deploy"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.0"
+    "gh-pages": "^2.0.0",
+    "prettier": "^2.1.2",
+    "prettier-airbnb-config": "^1.0.0"
   },
   "browserslist": [
     ">0.2%",

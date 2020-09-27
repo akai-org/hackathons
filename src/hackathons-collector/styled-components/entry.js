@@ -1,6 +1,6 @@
-import styled from "react-emotion";
+import styled from 'react-emotion';
 
-const Entry = styled("article")`
+const Entry = styled('article')`
   display: flex;
   margin: 20px;
 

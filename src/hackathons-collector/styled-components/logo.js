@@ -1,4 +1,4 @@
-import styled, { keyframes } from "react-emotion";
+import styled, {keyframes} from 'react-emotion';
 
 const spin = keyframes`
 0% {
@@ -12,7 +12,7 @@ const spin = keyframes`
 }
 `;
 
-const Logo = styled("img")`
+const Logo = styled('img')`
   animation: ${spin} infinite 5s linear;
   height: 80px;
 `;
