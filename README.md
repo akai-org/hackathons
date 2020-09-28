@@ -18,15 +18,17 @@ npm run build
 
 ## Deploy
 
-Currently repository is using Github Actions in order to deploy app on Github Pages. Deploy is
-triggered on every push to master.
+Currently repository is using Github Actions in order to deploy app on Github Pages. Deploy is triggered on every push to master.
 
 All details can be found in `.github/workflows/nodejs.yml`
 
-## Formatting
+## Linting
 
-Whole project is based on airbnb prettier config so changes in files are globally and the same for
-all.
+Whole project is based on airbnb's eslint config.
+
+```
+npm run lint
+```
 
 ## Testing
 

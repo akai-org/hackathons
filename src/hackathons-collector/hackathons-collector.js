@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // Global styling
 import './global-styles';
 
 // Styled components
-import {H1, H2} from './styled-components/text';
+import { H1, H2 } from './styled-components/text';
 import Header from './styled-components/header';
 import Logo from './styled-components/logo';
 import Main from './styled-components/main';
@@ -19,12 +19,12 @@ import Listing from './logic-components/listing';
 import logo from './assets/logo.svg';
 import akai from './assets/akai-logo.svg';
 
-const HackathonsCollector = ({events}) => {
+const HackathonsCollector = ({ events }) => {
   const [filterWeekends, changeFilterWeekends] = useState(false);
 
   const previousEvents = events
-    .filter(({date}) => date <= new Date())
-    .filter(({date}) => {
+    .filter(({ date }) => date <= new Date())
+    .filter(({ date }) => {
       return !filterWeekends || date.getDay() > 5;
     })
     .sort((a, b) => a.date - b.date)
@@ -32,8 +32,8 @@ const HackathonsCollector = ({events}) => {
     .splice(0, 3);
 
   const updatedEvents = events
-    .filter(({date}) => date > new Date())
-    .filter(({date}) => {
+    .filter(({ date }) => date > new Date())
+    .filter(({ date }) => {
       return !filterWeekends || date.getDay() > 5;
     })
     .sort((a, b) => a.date - b.date);
@@ -46,7 +46,7 @@ const HackathonsCollector = ({events}) => {
       </Header>
       <Filter
         value={filterWeekends}
-        setValue={newValue => {
+        setValue={(newValue) => {
           changeFilterWeekends(newValue);
         }}
       >
@@ -59,7 +59,7 @@ const HackathonsCollector = ({events}) => {
         </Section>
         <Section>
           <H2>Previous hackathons:</H2>
-          <Listing list={previousEvents} disabled={true} />
+          <Listing list={previousEvents} disabled />
         </Section>
       </Main>
       <Footer>

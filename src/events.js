@@ -44,7 +44,8 @@ export default [
   {
     title: 'Hackathon BrainCode 2019',
     date: new Date(2019, 3, 12),
-    url: 'https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247',
+    url:
+      'https://www.eventbrite.com/e/hackathon-braincode-2019-tickets-58268030247',
     location: 'Poznań',
     tags: [],
   },
@@ -140,7 +141,8 @@ export default [
   {
     title: 'Vue Storefront Hackathon #3',
     date: new Date(2018, 9, 26),
-    url: 'https://medium.com/@office_24377/vue-storefront-hackathon-3-13f652b60cf5',
+    url:
+      'https://medium.com/@office_24377/vue-storefront-hackathon-3-13f652b60cf5',
     location: 'Poznań',
     tags: [],
   },
@@ -169,7 +171,8 @@ export default [
   {
     title: 'Vue Storefront Hackathon #4',
     date: new Date(2019, 0, 18),
-    url: 'https://www.eventbrite.com/e/vue-storefront-hackathon-4-tickets-54166854520',
+    url:
+      'https://www.eventbrite.com/e/vue-storefront-hackathon-4-tickets-54166854520',
     location: 'Wrocław',
     tags: [],
   },
