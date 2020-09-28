@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import {injectGlobal} from 'emotion';
-=======
 import { injectGlobal } from 'emotion';
->>>>>>> eslint-prettier-and-airbnb-config
 
 export default injectGlobal`
   body {
