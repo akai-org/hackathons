@@ -3,21 +3,24 @@ import moment from 'moment';
 import 'moment/locale/en-gb';
 
 import Entry from '../styled-components/entry';
-import {H3} from '../styled-components/text';
+import { H3 } from '../styled-components/text';
 
 import akai from '../assets/akai-logo.svg';
 
-const ListingItem = ({event: {date, title, tags, location, description, url}, disabled}) => {
+const ListingItem = ({
+  event: { date, title, tags, location, description, url },
+  disabled,
+}) => {
   const weekday = moment(date).format('dddd');
-  const customStyles = !disabled ? {} : {color: '#888'};
+  const customStyles = !disabled ? {} : { color: '#888' };
 
   return (
     <Entry>
       <article style={customStyles}>
         <div className="tags">
           <span className="city">@{location}</span>
-          {tags.map((tag, i) => (
-            <span key={i}>#{tag}</span>
+          {tags.map((tag) => (
+            <span key={tag}>#{tag}</span>
           ))}
         </div>
         <H3>
@@ -28,7 +31,9 @@ const ListingItem = ({event: {date, title, tags, location, description, url}, di
             {moment(date).format('LL')} - <span>{weekday}</span>
             {disabled
               ? ''
-              : ` - ${moment(date).endOf('hours').diff(new Date(), 'days')} day(s) left`}
+              : ` - ${moment(date)
+                  .endOf('hours')
+                  .diff(new Date(), 'days')} day(s) left`}
           </span>
         </div>
         <p>{description}</p>

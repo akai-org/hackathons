@@ -1,3 +1,1 @@
-import HackathonsCollector from './hackathons-collector';
-
-export {HackathonsCollector};
+export { default } from './hackathons-collector';
