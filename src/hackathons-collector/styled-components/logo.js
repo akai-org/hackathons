@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import styled, {keyframes} from 'react-emotion';
+=======
+import styled, { keyframes } from 'react-emotion';
+>>>>>>> eslint-prettier-and-airbnb-config
 
 const spin = keyframes`
 0% {
@@ -9,7 +13,7 @@ const spin = keyframes`
 }
 100% {
   transform: rotateY(0deg);
-}
+} 
 `;
 
 const Logo = styled('img')`

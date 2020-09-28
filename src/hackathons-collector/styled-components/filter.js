@@ -9,7 +9,7 @@ const Filter = styled('label')`
 
 export default ({value, setValue, children}) => (
   <Filter>
-    <input type="checkbox" checked={value} onChange={() => setValue(!value)} />
+    <input type='checkbox' checked={value} onChange={() => setValue(!value)} />
     <span>{children}</span>
   </Filter>
 );
