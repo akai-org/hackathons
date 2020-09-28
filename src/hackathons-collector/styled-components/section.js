@@ -1,6 +1,6 @@
-import styled from "react-emotion";
+import styled from 'react-emotion';
 
-const Section = styled("section")`
+const Section = styled('section')`
   margin: 0 10px;
 `;
 
