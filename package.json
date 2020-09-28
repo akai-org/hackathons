@@ -19,11 +19,6 @@
     "deploy": "npm run build && node utils/deploy"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "gh-pages": "^2.0.0",
-    "prettier": "^2.1.2",
-    "prettier-airbnb-config": "^1.0.0"
-=======
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -34,7 +29,6 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "gh-pages": "^2.0.0",
     "prettier": "2.1.2"
->>>>>>> eslint-prettier-and-airbnb-config
   },
   "browserslist": [
     ">0.2%",
