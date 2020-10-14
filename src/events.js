@@ -1,4 +1,19 @@
 export default [
+    {
+    title: 'HackYeah - the biggest stationary hackathon in Europe',
+    date: new Date(2020, 11, 27),
+    url: 'https://hackyeah.pl/',
+    location: 'Online',
+    akai: true,
+    tags: [],
+  },
+  {
+    title: 'Hacktoberfest',
+    date: new Date(2020, 10, 1),
+    url: 'https://hacktoberfest.digitalocean.com/',
+    location: 'Online',
+    tags: [],
+  },
   {
     title: 'II Hackathon Kognitywistyczny Cog_HACK',
     date: new Date(2020, 2, 28),
