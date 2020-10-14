@@ -8,6 +8,13 @@ export default [
     tags: [],
   },
   {
+    title: 'Spacehack',
+    date: new Date(2020, 10, 23),
+    url: 'http://spacehack.pl/#home',
+    location: 'Online',
+    tags: [],
+  },   
+  {
     title: 'Hacktoberfest',
     date: new Date(2020, 10, 1),
     url: 'https://hacktoberfest.digitalocean.com/',
