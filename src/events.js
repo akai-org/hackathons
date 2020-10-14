@@ -1,5 +1,5 @@
 export default [
-    {
+  {
     title: 'HackYeah - the biggest stationary hackathon in Europe',
     date: new Date(2020, 11, 27),
     url: 'https://hackyeah.pl/',
