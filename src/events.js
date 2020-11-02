@@ -1,10 +1,45 @@
 export default [
   {
     title: 'HackYeah - the biggest stationary hackathon in Europe',
-    date: new Date(2020, 11, 27),
+    date: new Date(2020, 10, 27),
     url: 'https://hackyeah.pl/',
     location: 'Online',
     akai: true,
+    tags: [],
+  },
+  {
+    title: '4. Bydgoski Hackathon 2020 online',
+    date: new Date(2020, 10, 20),
+    url: 'https://bki.org.pl/hackathon/',
+    location: 'Online',
+    tags: [],
+  },
+  {
+    title: 'Hackathon dla Miast',
+    date: new Date(2020, 10, 20),
+    url: 'https://pfrdlamiast.pl/hackathon',
+    location: 'Online',
+    tags: [],
+  },
+  {
+    title: 'Hack into Mars - FPGA Hackathon 2020',
+    date: new Date(2020, 10, 20),
+    url: 'https://hackathon.fpgahackathon.com/register/team',
+    location: 'Online',
+    tags: [],
+  },
+  {
+    title: 'Innovation@Amazon Online Hackathon',
+    date: new Date(2020, 10, 6),
+    url: 'https://innovation-amazon.com/',
+    location: 'Online',
+    tags: [],
+  },
+  {
+    title: 'Iraq Hackathon',
+    date: new Date(2020, 10, 6),
+    url: 'iraqhackathon.com',
+    location: 'Online',
     tags: [],
   },
   {
@@ -17,7 +52,7 @@ export default [
   },
   {
     title: 'Hacktoberfest',
-    date: new Date(2020, 10, 1),
+    date: new Date(2020, 9, 1),
     url: 'https://hacktoberfest.digitalocean.com/',
     location: 'Online',
     tags: [],
