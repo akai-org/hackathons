@@ -1,5 +1,5 @@
 export default [
-    {
+  {
     title: 'HackYeah - the biggest stationary hackathon in Europe',
     date: new Date(2020, 10, 27),
     url: 'https://hackyeah.pl/',
@@ -44,11 +44,12 @@ export default [
   },
   {
     title: 'Spacehack',
-    date: new Date(2020, 9, 23),
-    url: 'http://spacehack.pl/#home',
+    date: new Date(2020, 10, 23),
+    url: 'http://spacehack.pl/',
     location: 'Online',
+    akai: true,
     tags: [],
-  },   
+  },
   {
     title: 'Hacktoberfest',
     date: new Date(2020, 9, 1),
