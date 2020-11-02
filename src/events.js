@@ -1,7 +1,7 @@
 export default [
     {
     title: 'HackYeah - the biggest stationary hackathon in Europe',
-    date: new Date(2020, 11, 27),
+    date: new Date(2020, 10, 27),
     url: 'https://hackyeah.pl/',
     location: 'Online',
     akai: true,
@@ -9,14 +9,14 @@ export default [
   },
   {
     title: 'Spacehack',
-    date: new Date(2020, 10, 23),
+    date: new Date(2020, 9, 23),
     url: 'http://spacehack.pl/#home',
     location: 'Online',
     tags: [],
   },   
   {
     title: 'Hacktoberfest',
-    date: new Date(2020, 10, 1),
+    date: new Date(2020, 9, 1),
     url: 'https://hacktoberfest.digitalocean.com/',
     location: 'Online',
     tags: [],
