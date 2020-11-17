@@ -1,5 +1,13 @@
 export default [
   {
+    title: 'B-hack Barbórka 4.0',
+    date: new Date(2020, 11, 4),
+    url: 'https://www.b-hack.pl/',
+    location: 'Online',
+    akai: false,
+    tags: [],
+  },
+  {
     title: 'HackYeah - the biggest stationary hackathon in Europe',
     date: new Date(2020, 10, 27),
     url: 'https://hackyeah.pl/',
