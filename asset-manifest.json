@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.947b86f0.chunk.js",
+    "main.js.map": "/static/js/main.947b86f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf6429e1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf6429e1.js.map",
+    "static/js/2.e88ae515.chunk.js": "/static/js/2.e88ae515.chunk.js",
+    "static/js/2.e88ae515.chunk.js.map": "/static/js/2.e88ae515.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.80f942a6c45d88b8e6471029553c6f07.js": "/precache-manifest.80f942a6c45d88b8e6471029553c6f07.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.e88ae515.chunk.js.LICENSE.txt": "/static/js/2.e88ae515.chunk.js.LICENSE.txt",
+    "static/media/akai-logo.svg": "/static/media/akai-logo.91359033.svg",
+    "static/media/logo.svg": "/static/media/logo.e6701352.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf6429e1.js",
+    "static/js/2.e88ae515.chunk.js",
+    "static/js/main.947b86f0.chunk.js"
+  ]
+}
