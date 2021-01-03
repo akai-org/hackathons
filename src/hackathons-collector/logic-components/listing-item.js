@@ -17,7 +17,7 @@ const ListingItem = ({
   return (
     <Entry>
       <article style={customStyles}>
-        <div className="tags">
+        <div className="tags" data-testid="tags-element">
           <span className="city">@{location}</span>
           {tags.map((tag) => (
             <span key={tag}>#{tag}</span>
@@ -42,7 +42,12 @@ const ListingItem = ({
         {disabled ? (
           ''
         ) : (
-          <a target="_blank" rel="noopener noreferrer" href={url}>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={url}
+            data-testid="url-element"
+          >
             website
           </a>
         )}
